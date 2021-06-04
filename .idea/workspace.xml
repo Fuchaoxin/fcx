@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3f6b227-a198-40dc-836f-ffa5a47614b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tHQ7Pwt1LRE8OBARHR2fO232YA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_cases/common_cases" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="JJW-automation" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="JJW-automation" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Web端自动化\cms-automation-master\test_cases\common_cases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run_all_cases">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="JJW-automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Administrator\PycharmProjects\automation\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_all_cases" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JJW-automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Administrator\PycharmProjects\automation\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_all_cases.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="JJW-automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\PycharmProjects\automation\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_getUserInfo.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="JJW-automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\PycharmProjects\automation\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases/interface_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/interface_cases/test_getUserInfo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_all_cases" />
+        <item itemvalue="Python tests.pytest in test_getUserInfo.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3f6b227-a198-40dc-836f-ffa5a47614b0" name="Default Changelist" comment="" />
+      <created>1622423366516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622423366516</updated>
+      <workItem from="1622423368362" duration="1182000" />
+      <workItem from="1622426082349" duration="916000" />
+      <workItem from="1622427020069" duration="536000" />
+      <workItem from="1622427578962" duration="106000" />
+      <workItem from="1622427768935" duration="10729000" />
+      <workItem from="1622527830140" duration="27055000" />
+      <workItem from="1622785843102" duration="547000" />
+      <workItem from="1622793111516" duration="861000" />
+      <workItem from="1622793992232" duration="1104000" />
+      <workItem from="1622796469181" duration="294000" />
+      <workItem from="1623026516786" duration="6540000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2094" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622427969719">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="2094" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622427969719" />
+    <state x="2386" y="249" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622618646612">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="2386" y="249" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622618646612" />
+    <state x="2420" y="154" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1622427493944">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="2420" y="154" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622427493944" />
+    <state x="558" y="86" key="CommitChangelistDialog2" timestamp="1623056308801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="86" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623056308801" />
+    <state x="2498" y="195" key="EnvironmentVariablesDialog" timestamp="1622426232079">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="2498" y="195" key="EnvironmentVariablesDialog/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622426232079" />
+    <state x="667" y="236" key="FileChooserDialogImpl" timestamp="1623027801649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="236" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623027801649" />
+    <state x="2420" y="204" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622528069076" />
+    <state width="1876" height="403" key="GridCell.Tab.0.bottom" timestamp="1622796449772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="403" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1622796449772" />
+    <state width="1396" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622786396272" />
+    <state width="1876" height="403" key="GridCell.Tab.0.center" timestamp="1622796449771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="403" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1622796449771" />
+    <state width="1396" height="338" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622786396270" />
+    <state width="1876" height="403" key="GridCell.Tab.0.left" timestamp="1622796449770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="403" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1622796449770" />
+    <state width="1396" height="338" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622786396270" />
+    <state width="1876" height="403" key="GridCell.Tab.0.right" timestamp="1622796449772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="403" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1622796449772" />
+    <state width="1396" height="338" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622786396271" />
+    <state x="295" y="94" key="SettingsEditor" timestamp="1623027902931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="295" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623027902931" />
+    <state x="2141" y="81" key="SettingsEditor/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622786301110" />
+    <state x="684" y="306" key="git4idea.merge.GitPullDialog" timestamp="1623056736696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="684" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623056736696" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_getUserInfo_py.coverage" NAME="pytest in test_getUserInfo.py Coverage Results" MODIFIED="1622616482057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/common_cases" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$run_all_cases.coverage" NAME="run_all_cases Coverage Results" MODIFIED="1622796498816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+  </component>
+</project>

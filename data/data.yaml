@@ -1,0 +1,205 @@
+test_login:
+  _mobile: 17696662920
+  _pwd: 123456a
+  _username: 吴*
+  _login_btn_text: 登录
+  _device_name: 夜神1
+  _id_no: 150102199003078850
+  _toast_1: 登录密码不能为空
+  _toast_2: 登录账号不能为空
+  _toast_3: 请输入正确的账号!
+  _toast_4: 用户名或密码错误!
+  _toast_5: 用户不存在!
+  _unregister_mobile: 13774523892
+  _incorrect_mobile: 159000200
+  _incorrect_pwd: 123456
+  _forget_btn_text: 忘记密码
+
+test_fund_status:
+  _device_name: 夜神2
+  _fund_code_1: DR0001
+  _fund_code_2: '025020'
+
+test_account_management:
+  _username: 17696662920
+  _pwd: 123456a
+  _verify_code_1: "000000"
+  _new_pwd: 123456a
+  _device_name: 夜神1
+  _toast_text: 修改成功,请重新登录！
+  _new_trade_pwd: 125566
+  _id_no: "220102199603073656"
+  _name: 刘铭
+  _toast_text_2: 修改成功
+  _verify_code_2: 123456
+  _trade_pwd: 125566
+  _bank_name: 中国建设银行
+  _bank_status: 已绑定
+  _mobile_no: 15900020006
+  _unregister_mobile: 13600043444
+  _toast_text_3: 用户不存在
+  _correct_email: 115235@qq.com
+  _incorrect_email: 15123525
+  _short_pwd: 1414
+  _incorrect_pwd: 5125126126
+  _modify_email_error_1: 请输入邮件地址
+  _modify_email_error_2: 邮件地址无效
+  _modify_email_error_3: 请输入登录密码
+  _modify_email_error_4: 请输入6-20位密码
+  _modify_email_error_5: 登录密码错误
+  _modify_email_success_toast: 提交成功
+  _id_no_2: 310101199003077974
+  _name_2: 李明
+  _current_mobile: 15900020001
+  _mobile_1: 17696662904
+  _lastname: wang
+  _firstname: kevin
+  _live_address: tqwetasdf
+  _birth_address: asuqpwetjk
+  _tax_number: J23153125
+
+test_register:
+  _device_name: 夜神1
+  _verify_code: '000000'
+  _pwd: 123456a
+  _confirm_pwd: 123456a
+
+test_private_announce:
+  _device_name: 夜神2
+  _title: 隐私政策协议
+  _content: 请您务必审慎阅读、充分理解“隐私政策”各条款，您可阅读并同意【金基窝】 《用户服务隐私政策协议》 了解详细信息；如您同意，请点击“同意”并接受我们的服务
+
+test_buy_fund:
+  _fund_code: '501001'
+  _device_name: 夜神1
+  _mobile: 17696666889
+  _pwd: 123456a
+  _amount: 100
+  _trade_type: 022
+  _toast_text: 请输入购买金额
+  _success_text: 申请成功！
+  _larger_than_bank_limit: 买入金额超过银行卡限额
+  _password: '125566'
+
+test_home_page:
+  _device_name: 夜神2
+  _hot_fund_page_title: 优选基金
+  _hot_fund_page_first_fund_name: 中融融安
+  _new_fund_page_title: 新发基金
+  _hqlc_page_title: 活期理财
+  _gzdt_page_title: 工资定投
+  _ptsl_page_title: 关于金基窝
+  _quick_reg: 50秒开户
+  _share: 邀请好友
+  _mobile: 15900020005
+  _pwd: 123456a
+  _advise_fund_count: 4
+  _fund_name: 方正保险
+  _fund_code: '167301'
+
+test_fund_transfer:
+  _mobile: 17696664440
+  _pwd: 123456a
+  _device_name: 夜神1
+  _success_text: 操作成功！
+  _toast_text: 选择想转入的基金
+  _toast_text_1: 请输入转出份额
+  _password: '125566'
+
+test_fix_plan:
+  _mobile: 17696664440
+  _pwd: 123456a
+  _device_name: 夜神1
+  _success_text: 申请成功
+  _fund_code: '501001'
+  _toast_text: 操作成功
+  _trade_type: 039
+  _password: '125566'
+
+
+test_register_open_account:
+  _device_name: 夜神2
+  _name: 于莹
+  _verify_code_1: '000000'
+  _verify_code_2: 123456
+  _login_pwd: 123456a
+  _trade_pwd: 125566
+  _success_text: 注册成功
+  _short_mobile: 1379990234
+  _short_verify_code: '0000'
+  _incorrect_verify_code: 125124
+  _short_pwd: 1234
+  _different_confirm_pwd: 123456d
+  _registered_mobile: 15900020005
+  _registered_error_1: 手机号不能为空
+  _registered_error_2: 验证码不能为空
+  _registered_error_3: 登录密码不能为空
+  _registered_error_4: 确认密码不能为空
+  _registered_error_5: 请输入11位手机号
+  _registered_error_6: 请输入6位验证码
+  _registered_error_7: 登录密码位数不对
+  _registered_error_8: 两次密码不一致
+  _registered_error_9: 请先获取验证码
+  _registered_error_10: 您已是注册用户，请前往首页登录绑卡
+
+test_redeem:
+  _device_name: 夜神1
+  _mobile: 17696664440
+  _pwd: 123456a
+  _success_text: 操作成功！
+  _password: '125566'
+
+test_fund_market:
+  _device_name: 夜神2
+  _order_text: 日涨跌幅
+  _order_text_2: 七日年化
+  _star_fund_title: 明星基金
+  _new_school_title: 新手学堂
+  _info_disclosure_title: 信息披露
+
+test_trade_records:
+  _device_name: 夜神1
+  _mobile: 17696664440
+  _pwd: 123456a
+
+test_undo:
+  _device_name: 夜神2
+  _mobile: 17696662904
+  _pwd: 123456a
+  _fund_code: '025020'
+  _buy_success: 支付成功！
+  _success_text: 操作成功!
+  _trade_content: 撤销
+  _password: '125566'
+
+test_subscribe_fund:
+  _fund_code: DR0001
+  _device_name: 夜神2
+  _mobile: 17696662904
+  _pwd: 123456a
+  _amount: 1000
+  _toast_text: 请输入购买金额
+  _success_text: 支付成功！
+  _toast_text_1: 单笔金额超限
+
+test_trade_record:
+  _device_name: 夜神2
+  _mobile: 18611853605
+  _pwd: 123456a
+  _mobile_1: 13080806666
+  _pwd_1: pd22858104
+
+test_modify_dividend:
+  _device_name: 夜神1
+  _mobile: 17696664441
+  _pwd: 123456a
+  _success_text: 操作成功！
+  _password: '125566'
+
+
+
+
+
+
+
+
