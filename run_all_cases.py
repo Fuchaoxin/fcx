@@ -2,9 +2,7 @@ import os
 from base.log import logger
 from base import config
 import allure
-
 log = logger()
-
 
 def pytest_start():
 
