@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3f6b227-a198-40dc-836f-ffa5a47614b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d3f6b227-a198-40dc-836f-ffa5a47614b0" name="Default Changelist" comment="upload file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_cases/common_cases" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_cases/interface_cases" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -146,16 +146,37 @@
       <workItem from="1622793992232" duration="1104000" />
       <workItem from="1622796469181" duration="294000" />
       <workItem from="1623026516786" duration="6540000" />
+      <workItem from="1623057540431" duration="1387000" />
     </task>
+    <task id="LOCAL-00001" summary="upload file">
+      <created>1623057765282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623057765283</updated>
+    </task>
+    <task id="LOCAL-00002" summary="upload file">
+      <created>1623113460546</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623113460546</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="upload file" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload file" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="842" y="381" key="#Notifications" timestamp="1623113592977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="842" y="381" key="#Notifications/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623113592977" />
     <state x="2094" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622427969719">
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
@@ -168,10 +189,10 @@
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state x="2420" y="154" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622427493944" />
-    <state x="558" y="86" key="CommitChangelistDialog2" timestamp="1623056308801">
+    <state x="338" y="168" key="CommitChangelistDialog2" timestamp="1623113455520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="86" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623056308801" />
+    <state x="338" y="168" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623113455520" />
     <state x="2498" y="195" key="EnvironmentVariablesDialog" timestamp="1622426232079">
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
@@ -206,6 +227,14 @@
     </state>
     <state x="295" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623027902931" />
     <state x="2141" y="81" key="SettingsEditor/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622786301110" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1623113467598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623113467598" />
+    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623058005193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623058005193" />
     <state x="684" y="306" key="git4idea.merge.GitPullDialog" timestamp="1623056736696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
