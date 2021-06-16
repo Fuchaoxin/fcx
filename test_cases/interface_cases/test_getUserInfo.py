@@ -2,22 +2,26 @@
 import requests
 import pytest
 import allure
+from base import config
+import json
+from base.AssertUtil import AssertUtil
+
 
 @allure.step("接口test_getUserInfo")
 def test_getUserInfo(test_getToken):
     payload1 = {
-        'accessToken':test_getToken
+        'accessToken':test_getToken,
+        'content':{
+            'accessToken': test_getToken
+        }
     }
     headers = {
         "Content-Type": "application/json"
     }
-    print("UserInfo_test_getToken: ")
-    print(test_getToken)
-    r1 = requests.post(url='https://rpdtssax-cms.caizidao.com.cn:9011/cms-api/staff/getUserInfo', params=payload1,headers=headers)
-    if r1.status_code != 200 :
-        print("\ngetUserInfo failed!!!!!!")
-    else:
-        print("\ngetUserInfo Pass!!!!!!")
+    payload1 = json.dumps(payload1)
+    r1 = requests.post(url=config.Pre_Url+'/cms-api/staff/getUserInfo', data=payload1,headers=headers)
+    As = AssertUtil()
+    As.assert_code(r1.json()['code'], 200,'test_getUserInfo')
 
 
 if __name__ == "__main__":

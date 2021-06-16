@@ -2,7 +2,9 @@
 import requests
 import pytest
 import allure
-
+from base import config
+import json
+from base.AssertUtil import AssertUtil
 @allure.step("接口test_selActivityList")
 def test_selActivityList(test_getToken):
     payload1 = {
@@ -13,14 +15,10 @@ def test_selActivityList(test_getToken):
     headers ={
         "Content-Type":"application/json"
     }
-    print("sel_test_getToken: ")
-    print(test_getToken)
-    r1 = requests.post(url='https://rpdtssax-cms.caizidao.com.cn:9011/shopping-cms-api/activity/selActivityList', params=payload1,headers=headers)
-    if r1.status_code != 200:
-        print("\nselActivityList failed!!!!!!")
-    else:
-        print("\nselActivityList Pass!!!!!!")
-
+    payload1 = json.dumps(payload1)
+    r1 = requests.post(url=config.Pre_Url+'/shopping-cms-api/activity/selActivityList', data=payload1,headers=headers)
+    As = AssertUtil()
+    As.assert_code(r1.json()['code'], 200,'test_selActivityList')
 
 if __name__ == "__main__":
     test_selActivityList()
