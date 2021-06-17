@@ -6,10 +6,11 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_suggestTopicList")
-def test_suggestTopicList(test_getToken):
+@pytest.mark.parametrize("type,expect_result",[("app",200),("pc",200)])
+def test_suggestTopicList(test_getToken,type,expect_result):
     payload1 = {
         'accessToken':test_getToken,
-        'content': {'type': "app"}
+        'content': {'type': type}
     }
     headers = {
         "Content-Type": "application/json"
@@ -21,5 +22,5 @@ def test_suggestTopicList(test_getToken):
 
 
 if __name__ == "__main__":
-    test_suggestTopicList()
+
     pytest.main(['-s','test_suggestTopicList.py'])

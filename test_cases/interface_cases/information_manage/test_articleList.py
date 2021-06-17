@@ -6,13 +6,14 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_articleList")
-def test_articleList(test_getToken):
+@pytest.mark.parametrize("status,expect_result",[(None,200),(4,200),(5,200),(2,200),(3,200),(1,200)])
+def test_articleList(test_getToken,status,expect_result):
     payload1 = {
         'accessToken':test_getToken,
         "page":{"pageNum": 1,"pageSize":20},
         "content": {"title": "",
                     "specialId": "",
-                    "status": "null"
+                    "status": status
                     
                     }
     }

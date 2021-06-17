@@ -6,7 +6,7 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 
-#@allure.step("接口test_memberData")
+@allure.step("接口test_memberData")
 @pytest.mark.parametrize("content,expect_result",[(1000003,200),(1000004,200),(1000005,200)])
 def test_memberData(test_getToken,content,expect_result):
     payload1 = {
