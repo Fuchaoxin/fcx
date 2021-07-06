@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_template_getJobs")
-def test_template_getJobs(test_getToken):
+def test_template_getJobs():
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         'appId': "cms",
         'enable': 1,
         'operator': "",
@@ -31,5 +31,5 @@ def test_template_getJobs(test_getToken):
 
 
 if __name__ == "__main__":
-    test_template_getJobs()
+
     pytest.main(['-s','test_template_getJobs.py'])

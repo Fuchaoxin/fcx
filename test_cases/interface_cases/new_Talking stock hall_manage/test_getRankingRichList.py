@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_getRankingRichList")
-def test_getRankingRichList(test_getToken):
+def test_getRankingRichList():
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         "page":{"pageNum": 1,"pageSize":10},
         "content": {
              'topicName': ""

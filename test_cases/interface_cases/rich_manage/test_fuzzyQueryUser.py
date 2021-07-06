@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_fuzzyQueryUser")
-def test_fuzzyQueryUser(test_getToken):
+def test_fuzzyQueryUser():
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         "page":{"pageNum": 0,"pageSize":0},
         "content": {
                     'keyword': "小财米_EO5571 10006332",
@@ -25,5 +25,5 @@ def test_fuzzyQueryUser(test_getToken):
 
 
 if __name__ == "__main__":
-    test_fuzzyQueryUser()
+
     pytest.main(['-s','test_fuzzyQueryUser.py'])

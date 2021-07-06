@@ -7,8 +7,8 @@ from base import config
 from base.log import logger
 
 log = logger()
-
-
+server_host='smtp.qq.com'
+#server_host='qiye.163.com'
 class EmailPack:
     # 初始化发件人，密码，收件人列表
     def __init__(self, server_host=None, fromaddr=None, password=None, toaddrs=None):
@@ -25,7 +25,7 @@ class EmailPack:
             self.toaddrs = toaddrs
 
         if server_host == None:   # 设置邮件服务器默认值
-            self.server = smtplib.SMTP('qiye.163.com')
+            self.server = smtplib.SMTP_SSL(server_host, 465)  # 'qiye.163.com'
         else:
             self.server = smtplib.SMTP(server_host)
         self.message = MIMEMultipart()   # 邮件体
@@ -44,12 +44,14 @@ class EmailPack:
     # 发送邮件
     def send_message(self):
         try:
+            self.server.connect(server_host,port=465)
             self.server.login(self.fromaddr, self.password)
             self.server.sendmail(self.fromaddr, self.toaddrs, self.message.as_string())
             log.info(f'邮件发送成功！收件人：{self.toaddrs}')
             self.server.quit()
         except smtplib.SMTPException as e:
             log.info('邮件发送失败！错误信息：', e)  # 打印错误
+
 
 
 def send_default_email():
@@ -60,7 +62,7 @@ def send_default_email():
         title="Hi！测试执行完毕提醒！",
         content='''
             您的测试报告附件已生成，请注意查收！\n
-            另外也可进入http://49.234.103.36/\n
+            另外也可进入 \\172.27.80.122\\test\A 软件业务线\\13 APP-X\\3 测试结果\\1 接口测试\接口自动化结果 \n
             查看最新的测试报告！
             ''',
         file_list=config.FILE_LIST

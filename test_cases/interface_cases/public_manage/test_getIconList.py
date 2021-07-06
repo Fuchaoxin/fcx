@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_getIconList")
-def test_getIconList(test_getToken):
+def test_getIconList():
     payload1 = {
-        "accessToken": test_getToken,
+        "accessToken": config.TOKEN,
         "page":{"pageNum": 1,"pageSize":20},
         "content": {"beginTime": "null",
                     "content": "",
@@ -25,5 +25,5 @@ def test_getIconList(test_getToken):
 
 
 if __name__ == "__main__":
-    test_getIconList()
+
     pytest.main(['-s','test_getIconList.py'])

@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_virtualCoin_getExpensesPage")
-def test_virtualCoin_getExpensesPage(test_getToken):
+def test_virtualCoin_getExpensesPage():
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         "page":{"pageNum": 1,"pageSize":20},
         "content": {
                     "status": "",
@@ -25,5 +25,5 @@ def test_virtualCoin_getExpensesPage(test_getToken):
 
 
 if __name__ == "__main__":
-    test_virtualCoin_getExpensesPage()
+
     pytest.main(['-s','test_virtualCoin_getExpensesPage.py'])

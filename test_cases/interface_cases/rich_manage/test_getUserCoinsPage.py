@@ -6,13 +6,14 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_getUserCoinsPage")
-def test_getUserCoinsPage(test_getToken):
+def test_getUserCoinsPage():
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         "page":{"pageNum": 1,"pageSize":20},
         "content": {
 
-                    "phone": ""
+                    "phone": "",
+                    "userId": "8b0bbeee-fe7a-4b3e-b630-0f479d1e99da"
                     }
     }
     headers = {
@@ -25,5 +26,5 @@ def test_getUserCoinsPage(test_getToken):
 
 
 if __name__ == "__main__":
-    test_getUserCoinsPage()
+
     pytest.main(['-s','test_getUserCoinsPage.py'])

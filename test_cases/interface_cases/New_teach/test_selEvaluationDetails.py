@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_selEvaluationDetails")
-def test_selEvaluationDetails(test_getToken):
+def test_selEvaluationDetails():
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         "page":{"pageNum": 0,"pageSize":20},
         "content": {
                     "auditState": "",
@@ -30,5 +30,5 @@ def test_selEvaluationDetails(test_getToken):
 
 
 if __name__ == "__main__":
-    test_selEvaluationDetails()
+
     pytest.main(['-s','test_selEvaluationDetails.py'])

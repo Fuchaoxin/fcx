@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_memberLevel")
-def test_memberLevel(test_getToken):
+def test_memberLevel():
     payload1 = {
-        'accessToken':test_getToken
+        'accessToken':config.TOKEN
     }
     headers = {
         "Content-Type": "application/json"
@@ -20,5 +20,4 @@ def test_memberLevel(test_getToken):
 
 
 if __name__ == "__main__":
-    test_memberLevel()
     pytest.main(['-s','test_memberLevel.py'])

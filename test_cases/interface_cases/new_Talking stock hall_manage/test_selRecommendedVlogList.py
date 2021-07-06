@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_selRecommendedVlogList")
-def test_selRecommendedVlogList(test_getToken):
+def test_selRecommendedVlogList():
     payload1 = {
-        "accessToken": test_getToken
+        "accessToken": config.TOKEN
 
     }
     headers ={

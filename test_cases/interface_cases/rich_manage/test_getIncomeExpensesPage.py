@@ -7,13 +7,14 @@ import json
 from base.AssertUtil import AssertUtil
 
 @allure.step("接口test_getIncomeExpensesPage")
-def test_getIncomeExpensesPage(test_getToken):
+def test_getIncomeExpensesPage():
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         "page":{"pageNum": 1,"pageSize":20},
         "content": {
-                    "status": "",
-                    "phone": ""
+                    "status": 1,
+                    "phone": "",
+                    "userId": "11a6ab32-bfb9-4240-ade1-ccbc308e0006"
                     }
     }
     headers = {
@@ -26,5 +27,5 @@ def test_getIncomeExpensesPage(test_getToken):
 
 
 if __name__ == "__main__":
-    test_getIncomeExpensesPage()
+
     pytest.main(['-s','test_getIncomeExpensesPage.py'])

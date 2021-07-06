@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_findStatusStatistics")
-def test_findStatusStatistics(test_getToken):
+def test_findStatusStatistics():
     payload1 = {
-        'accessToken':test_getToken
+        'accessToken':config.TOKEN
     }
     headers = {
         "Content-Type": "application/json"

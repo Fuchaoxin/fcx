@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_queryOfflineActivityApplyListWithPage")
-def test_queryOfflineActivityApplyListWithPage(test_getToken):
+def test_queryOfflineActivityApplyListWithPage():
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         "page":{"pageNum": 1,"pageSize":20},
         "content": {"account": None,
                     "activityId": None,
@@ -26,5 +26,5 @@ def test_queryOfflineActivityApplyListWithPage(test_getToken):
 
 
 if __name__ == "__main__":
-    test_queryOfflineActivityApplyListWithPage()
+
     pytest.main(['-s','test_queryOfflineActivityApplyListWithPage.py'])

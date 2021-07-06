@@ -6,11 +6,12 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_imageList")
-def test_imageList(test_getToken):
+@pytest.mark.parametrize("name",["",1])
+def test_imageList(name):
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         "page":{"pageNum": 1,"pageSize":20},
-        "content": {"name": ""}
+        "content": {"name": name}
     }
     headers = {
         "Content-Type": "application/json"

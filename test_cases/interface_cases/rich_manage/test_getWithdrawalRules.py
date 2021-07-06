@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_getWithdrawalRules")
-def test_getWithdrawalRules(test_getToken):
+def test_getWithdrawalRules():
     payload1 = {
-        "accessToken": test_getToken
+        "accessToken": config.TOKEN
 
     }
     headers ={
@@ -21,5 +21,5 @@ def test_getWithdrawalRules(test_getToken):
 
 
 if __name__ == "__main__":
-    test_getWithdrawalRules()
+
     pytest.main(['-s','test_getWithdrawalRules.py'])

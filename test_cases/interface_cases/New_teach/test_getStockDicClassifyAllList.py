@@ -6,9 +6,9 @@ import json
 from base import config
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_getStockDicClassifyAllList")
-def test_getStockDicClassifyAllList(test_getToken):
+def test_getStockDicClassifyAllList():
     payload1 = {
-        "accessToken": test_getToken
+        "accessToken": config.TOKEN
 
     }
     headers ={
@@ -21,5 +21,5 @@ def test_getStockDicClassifyAllList(test_getToken):
 
 
 if __name__ == "__main__":
-    test_getStockDicClassifyAllList()
+
     pytest.main(['-s','test_getStockDicClassifyAllList.py'])

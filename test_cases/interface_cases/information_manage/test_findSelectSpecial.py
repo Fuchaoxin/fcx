@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_findSelectSpecial")
-def test_findSelectSpecial(test_getToken):
+def test_findSelectSpecial():
     payload1 = {
-        'accessToken':test_getToken
+        'accessToken':config.TOKEN
     }
     headers = {
         "Content-Type": "application/json"

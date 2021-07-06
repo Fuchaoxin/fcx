@@ -8,9 +8,9 @@ from base.AssertUtil import AssertUtil
 
 @allure.step("接口test_rights_details")
 @pytest.mark.parametrize("memberId,expect_result",[(224087069438238720,200),(224087131799150592,200),(224087194227171328,200),(224086997673697280,200),(224086997673697250,200)])
-def test_rights_details(test_getToken,memberId,expect_result):
+def test_rights_details(memberId,expect_result):
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         'content': {
                         'memberId':memberId
                     }

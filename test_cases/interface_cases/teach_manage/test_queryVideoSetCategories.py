@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_queryVideoSetCategories")
-def test_queryVideoSetCategories(test_getToken):
+def test_queryVideoSetCategories():
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         "page":{"pageNum": 0,"pageSize":0},
         "content": {
                     'expand': 'false',
@@ -24,5 +24,5 @@ def test_queryVideoSetCategories(test_getToken):
     As.assert_code(r1.json()['code'], 200,'test_queryVideoSetCategories')
 
 if __name__ == "__main__":
-    test_queryVideoSetCategories()
+
     pytest.main(['-s','test_queryVideoSetCategories.py'])

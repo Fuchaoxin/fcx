@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_virtualCoin_getClearCoinRules")
-def test_virtualCoin_getClearCoinRules(test_getToken):
+def test_virtualCoin_getClearCoinRules():
     payload1 = {
-        "accessToken": test_getToken
+        "accessToken": config.TOKEN
 
     }
     headers ={
@@ -21,5 +21,5 @@ def test_virtualCoin_getClearCoinRules(test_getToken):
 
 
 if __name__ == "__main__":
-    test_virtualCoin_getClearCoinRules()
+
     pytest.main(['-s','test_virtualCoin_getClearCoinRules.py'])

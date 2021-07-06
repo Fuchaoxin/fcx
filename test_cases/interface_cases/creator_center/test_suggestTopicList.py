@@ -7,9 +7,9 @@ import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_suggestTopicList")
 @pytest.mark.parametrize("type,expect_result",[("app",200),("pc",200)])
-def test_suggestTopicList(test_getToken,type,expect_result):
+def test_suggestTopicList(type,expect_result):
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         'content': {'type': type}
     }
     headers = {

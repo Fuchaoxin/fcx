@@ -20,30 +20,150 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3f6b227-a198-40dc-836f-ffa5a47614b0" name="Default Changelist" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/JJW-automation.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/AssertUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/APP_manage/test_add_edit_delete_moveInform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/APP_manage/test_add_edit_delete_publishHomePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_addEvaluationData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_add_edit_deleteChapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_add_edit_deleteDailyLesson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_add_edit_deleteEduVideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_add_edit_deleteStockDic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_add_edit_deleteUI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_add_edit_deletegoodCourse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_add_edit_deletequestion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_add_edit_closeBannerInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_add_edit_closeLaunchPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_add_edit_closeNavigationbar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_add_edit_closeOpenScreenPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_add_edit_closePop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/fortune_manage/test_wealth_getDetailByLevelId.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_add_close_deleteSpecial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_add_deleteArticle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_add_deleteimage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_add_edit_delete_topArticle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_articleList_select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_addOrUpdateRankingData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_addTopic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_add_edit_deleteVlogData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_queryVodMemberConfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_updTopicSwitchState.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_updateVodMemberConfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_add_delete_labelCategory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_add_edit_deleteBottomIconItem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_add_edit_deleteLabelCate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_add_edit_deleteLabelList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_add_edit_deleteLabelbg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_add_edit_deleteUserLabel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_add_edit_deleteUserLabelList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_deload_delete_addHead.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/push_manage/test_add_view_deleteMaterial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/push_manage/test_add_view_deletePush.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/recommended manage/test_addVirmediaHotSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/recommended manage/test_delVirmediaHotSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_virtualCoin_manualExpenses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_add_edit_deleteBanner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_add_edit_deleteVideoSetCategory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_add_edit_deleteteacher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_add_edit_deleteKol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_add_edit_deleteLabour.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-03_16_45_15.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-03_17_29_01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_10_32_01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_13_15_40.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_13_19_18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_13_20_55.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_13_22_39.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_13_37_56.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_13_40_58.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_13_51_25.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_13_58_34.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_16_03_32.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_16_05_08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_16_41_26.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_16_44_57.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-06-04_16_48_19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/email.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_updateBasicSetting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run_all_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_all_cases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/APP_manage/test_selHomePageManageList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/APP_manage/test_selHomePageOptionsData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/APP_manage/test_selInformManageList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/Activity_manage/test_selActivityList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/Activity_manage/test_selActivityList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/Diagnosis/test_getTeacherPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/Diagnosis/test_getTeacherPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/Diagnosis/test_stockDiagnosis_getPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/Diagnosis/test_stockDiagnosis_getPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_dailyLessonList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_edu_getList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_edu_question_getList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_addNotes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_getListBySchoolId.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_getNotesList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_getNotesList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_getStockDicClassifyAllList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_getStockDicClassifyAllList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_getStockDicClassifyList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_getStockDicClassifyList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_gradeExam_getConfigList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_gradeExam_getConfigList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_listEduVideo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_school_getList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_school_getList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_selEvaluationDetails.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_selEvaluationDetails.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_selGoodCourseList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_selGoodCourseList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_videoRelationList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_videoRelationList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_selAdBannerList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_selAdOpenScreenPageList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_selAreaList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_selAreaList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_selLaunchPageList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_selMaterialList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_selNavigationbarList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_selPopList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_selUserLabelList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_selUserLabelList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/creator_center/test_suggestTopicList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/creator_center/test_suggestTopicList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/fortune_manage/test_wealth_getLevelList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/fortune_manage/test_wealth_getLevelList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/fortune_manage/test_wealth_getRule.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/fortune_manage/test_wealth_getRule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_add_close_deleteArticle.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/advert_manage/test_add_edit_deleteMaterial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_articleList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_articleList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_findSelectSpecial.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_findSelectSpecial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_findStatusStatistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_findStatusStatistics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_findUnpublshStatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_findUnpublshStatus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_imageList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_imageList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/information_manage/test_special_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_getRankingRichList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_getRankingRichList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_getTopicList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_getTopicList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_selChosedRecommendUsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_selChosedRecommendUsers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_selRecommendedUsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_selRecommendedUsers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_selRecommendedVlogList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_selRecommendedVlogList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_selTopicList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_selTopicList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_selTopicPlacedSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_selTopicPlacedSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_selVlogList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_selVlogList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage/test_memberData.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage/test_memberData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage/test_memberLevel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage/test_memberLevel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage/test_member_ui_rights.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage/test_member_ui_rights.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage/test_rightList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage/test_rightList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage/test_rightUIList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage/test_rightUIList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage/test_rights_details.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage/test_rights_details.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_getAppBottomIconSelectInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_getAppBottomIconSelectInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_getBottomIconList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_getBottomIconList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_getIconCateList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_getIconCateList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_getIconList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_getIconList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_getLabelCateList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_getLabelCategoryList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_getLabelCategoryList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_getLabelList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_queryApplyOfflineActivityList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_queryApplyOfflineActivityList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_queryList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_queryOfflineActivityApplyListWithPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_queryOfflineActivityApplyListWithPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_selLevelList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/fortune_manage/test_wealth_updateRule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/public_manage/test_selSecondaryList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/push_manage/test_material_getList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/push_manage/test_material_getList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/push_manage/test_template_getJobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/push_manage/test_template_getJobs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/recommended manage/test_virmediaIntervalNumList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/recommended manage/test_virmediaIntervalNumList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_fuzzyQueryUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_fuzzyQueryUser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_getIncomeExpensesPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_getIncomeExpensesPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_getUserCoinsPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_getUserCoinsPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_getWithdrawalDetail.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_getWithdrawalDetail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_getWithdrawalPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_getWithdrawalPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_getWithdrawalRules.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_getWithdrawalRules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_virtualCoin_getBasicSettings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_virtualCoin_getBasicSettings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_virtualCoin_getClearCoinRules.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_virtualCoin_getClearCoinRules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_virtualCoin_getCoinStats.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_virtualCoin_getCoinStats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_virtualCoin_getExpensesPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_virtualCoin_getExpensesPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_withdrawalRules.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/rich_manage/test_withdrawalRules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_getBannerList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_getVideoSetsPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_getVideoSetsPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_querySectionsPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_querySectionsPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_queryShowStyles.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_queryShowStyles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_queryVideoSetCategories.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_queryVideoSetCategories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_teacher_queryUserWithPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_teacher_queryUserWithPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/test_getUserInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/test_getUserInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_cooperation_queryUserWithPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_cooperation_queryUserWithPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_findSelectLabourList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_findSelectLabourList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_getMemberLevelList.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_getMemberLevelList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_kol_findKolList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_kol_findSelectUserType.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_kol_findSelectUserType.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_labour_findLabourList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_official_queryUserWithPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/user_manage/test_official_queryUserWithPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/interface_cases/vote_manage/test_add_close_deleteVoting.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/interface_cases/vote_manage/test_add_close_deleteVoting.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +181,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1tHQ7Pwt1LRE8OBARHR2fO232YA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,7 +193,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_cases/interface_cases/New_teach" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -83,9 +205,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Web端自动化\cms-automation-master\test_cases\interface_cases\vote_manage" />
+      <recent name="F:\Web端自动化\cms-automation-master\test_cases\interface_cases\vote_manage\add_close_delete_voting" />
+      <recent name="F:\Web端自动化\cms-automation-master\test_cases\interface_cases\push_manage" />
+      <recent name="F:\Web端自动化\cms-automation-master\test_cases\interface_cases\teach_manage" />
+      <recent name="F:\Web端自动化\cms-automation-master\test_cases\interface_cases\public_manage" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Web端自动化\cms-automation-master\test\test_cases\interface_cases" />
-      <recent name="F:\Web端自动化\cms-automation-master\test_cases\common_cases" />
+      <recent name="F:\Web端自动化\cms-automation-master\test_cases\interface_cases\New_teach" />
+      <recent name="F:\Web端自动化\cms-automation-master\test_cases\interface_cases\user_manage" />
+      <recent name="F:\Web端自动化\cms-automation-master\test_cases\interface_cases\teach_manage" />
+      <recent name="F:\Web端自动化\cms-automation-master\test_cases\interface_cases\new_Talking stock hall_manage" />
+      <recent name="F:\Web端自动化\cms-automation-master\test_cases\interface_cases\public_manage" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run_all_cases">
@@ -118,8 +250,8 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\PycharmProjects\automation\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -150,12 +282,12 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_getUserInfo.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="JJW-automation" />
+    <configuration name="pytest in test_add_edit_deleteStockDic.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Users\Administrator\PycharmProjects\automation\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases/interface_cases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases/interface_cases/New_teach" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -163,14 +295,75 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/interface_cases/test_getUserInfo.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/interface_cases/New_teach/test_add_edit_deleteStockDic.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_add_edit_deleteVlogData.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\PycharmProjects\automation\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage/test_add_edit_deleteVlogData.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_add_edit_deleteteacher.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\PycharmProjects\automation\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases/interface_cases/teach_manage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/interface_cases/teach_manage/test_add_edit_deleteteacher.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_add_view_deleteMaterial.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\PycharmProjects\automation\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases/interface_cases/push_manage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/interface_cases/push_manage/test_add_view_deleteMaterial.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.run_all_cases" />
+      <item itemvalue="Python tests.pytest in test_add_edit_deleteVlogData.py" />
+      <item itemvalue="Python tests.pytest in test_add_edit_deleteStockDic.py" />
+      <item itemvalue="Python tests.pytest in test_add_view_deleteMaterial.py" />
+      <item itemvalue="Python tests.pytest in test_add_edit_deleteteacher.py" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run_all_cases" />
-        <item itemvalue="Python tests.pytest in test_getUserInfo.py" />
+        <item itemvalue="Python tests.pytest in test_add_edit_deleteteacher.py" />
+        <item itemvalue="Python tests.pytest in test_add_view_deleteMaterial.py" />
+        <item itemvalue="Python tests.pytest in test_add_edit_deleteVlogData.py" />
+        <item itemvalue="Python tests.pytest in test_add_edit_deleteStockDic.py" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +391,10 @@
       <workItem from="1623116921491" duration="8008000" />
       <workItem from="1623139064042" duration="875000" />
       <workItem from="1623139975521" duration="165000" />
-      <workItem from="1623140256219" duration="1795000" />
+      <workItem from="1623140256219" duration="2079000" />
+      <workItem from="1623142369747" duration="78245000" />
+      <workItem from="1623743034979" duration="36563000" />
+      <workItem from="1623919614133" duration="174594000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1623117095569</created>
@@ -291,7 +487,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623141664367</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="test">
+      <created>1623142082227</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1623142082227</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test">
+      <created>1623807796696</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1623807796696</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test">
+      <created>1623917541568</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1623917541568</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,10 +558,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="561" y="175" key="#Deployment/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623117815084" />
-    <state x="232" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623141361467">
+    <state x="232" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623901226862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="232" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623141361467" />
+    <state x="232" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623901226862" />
     <state x="2094" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622427969719" />
     <state x="2386" y="249" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622618646612">
       <screen x="1920" y="0" width="1440" height="900" />
@@ -354,64 +571,118 @@
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state x="2420" y="154" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622427493944" />
+    <state x="656" y="98" key="#pytest_in_test_getUserInfo.py" timestamp="1623292718846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="98" key="#pytest_in_test_getUserInfo.py/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623292718846" />
     <state x="656" y="110" key="#run_all_cases" timestamp="1623140021474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="110" key="#run_all_cases/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623140021474" />
-    <state x="514" y="86" key="CommitChangelistDialog2" timestamp="1623142031479">
+    <state x="514" y="86" key="CommitChangelistDialog2" timestamp="1623917528000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="514" y="86" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623142031479" />
+    <state x="514" y="86" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623917528000" />
     <state x="2498" y="195" key="EnvironmentVariablesDialog" timestamp="1622426232079">
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state x="2498" y="195" key="EnvironmentVariablesDialog/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622426232079" />
-    <state x="667" y="236" key="FileChooserDialogImpl" timestamp="1623140012071">
+    <state x="667" y="236" key="FileChooserDialogImpl" timestamp="1623901223481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="236" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623140012071" />
+    <state x="667" y="236" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623901223481" />
     <state x="2420" y="204" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622528069076" />
-    <state width="1876" height="396" key="GridCell.Tab.0.bottom" timestamp="1623140426232">
+    <state width="1876" height="460" key="GridCell.Tab.0.bottom" timestamp="1625562003596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623140426232" />
-    <state width="1396" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622786396272" />
-    <state width="1876" height="396" key="GridCell.Tab.0.center" timestamp="1623140426231">
+    <state width="1876" height="460" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1625562003596" />
+    <state width="1380" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1625465707224" />
+    <state width="1876" height="460" key="GridCell.Tab.0.center" timestamp="1625562003595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="396" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623140426231" />
-    <state width="1396" height="338" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622786396270" />
-    <state width="1876" height="396" key="GridCell.Tab.0.left" timestamp="1623140426230">
+    <state width="1876" height="460" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1625562003595" />
+    <state width="1380" height="302" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1625465707223" />
+    <state width="1876" height="460" key="GridCell.Tab.0.left" timestamp="1625562003595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="396" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623140426230" />
-    <state width="1396" height="338" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622786396270" />
-    <state width="1876" height="396" key="GridCell.Tab.0.right" timestamp="1623140426232">
+    <state width="1876" height="460" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1625562003595" />
+    <state width="1380" height="302" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1625465707222" />
+    <state width="1876" height="460" key="GridCell.Tab.0.right" timestamp="1625562003595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="396" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623140426232" />
-    <state width="1396" height="338" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622786396271" />
+    <state width="1876" height="460" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1625562003595" />
+    <state width="1380" height="302" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1625465707223" />
     <state x="295" y="94" key="SettingsEditor" timestamp="1623141886935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="295" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623141886935" />
     <state x="2141" y="81" key="SettingsEditor/0.0.1920.1040/1920.0.1440.900@1920.0.1440.900" timestamp="1622786301110" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1623141666798">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1623917820986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623141666798" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623917820986" />
+    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623202322874">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623202322874" />
     <state x="574" y="267" key="git4idea.history.wholeTree.VcsStructureChooser" timestamp="1623140498372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="267" key="git4idea.history.wholeTree.VcsStructureChooser/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623140498372" />
+    <state x="684" y="306" key="git4idea.merge.GitPullDialog" timestamp="1623142150341">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="684" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623142150341" />
     <state x="790" y="310" key="svn.repositoryBrowser" timestamp="1623141783766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="310" key="svn.repositoryBrowser/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1623141783766" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_getUserInfo_py.coverage" NAME="pytest in test_getUserInfo.py Coverage Results" MODIFIED="1622616482057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/common_cases" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_close_deleteArticle_py.coverage" NAME="pytest in test_add_close_deleteSpecial.py Coverage Results" MODIFIED="1624259014663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/information_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_special_list_py.coverage" NAME="pytest in test_special_list.py Coverage Results" MODIFIED="1623916111238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/information_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_close_deleteVoting_py.coverage" NAME="pytest in test_add_close_deleteVoting.py Coverage Results" MODIFIED="1623914714938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/vote_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_findUnpublshStatus_py.coverage" NAME="pytest in test_findUnpublshStatus.py Coverage Results" MODIFIED="1623814059013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/information_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_closeVotingData_py.coverage" NAME="pytest in test_closeVotingData.py Coverage Results" MODIFIED="1623898867850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/vote_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_edit_deleteteacher_py.coverage" NAME="pytest in test_add_edit_deleteteacher.py Coverage Results" MODIFIED="1625561977478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/teach_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$run_all_cases.coverage" NAME="run_all_cases Coverage Results" MODIFIED="1625562226633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_edit_deleteDailyLesson_py.coverage" NAME="pytest in test_add_edit_deleteDailyLesson.py Coverage Results" MODIFIED="1625534405515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/New_teach" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_memberData_py.coverage" NAME="pytest in test_memberData.py Coverage Results" MODIFIED="1623742614522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_edit_deleteUI_py.coverage" NAME="pytest in test_add_edit_deleteUI.py Coverage Results" MODIFIED="1625541996697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/New_teach" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_selLaunchPageList_py.coverage" NAME="pytest in test_selLaunchPageList.py Coverage Results" MODIFIED="1623306685133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/advert_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_deleteimage_py.coverage" NAME="pytest in test_add_deleteimage.py Coverage Results" MODIFIED="1624256024366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/information_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_edit_deleteStockDic_py.coverage" NAME="pytest in test_add_edit_deleteStockDic.py Coverage Results" MODIFIED="1625551797834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/New_teach" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_edit_deleteChapter_py.coverage" NAME="pytest in test_add_edit_deleteChapter.py Coverage Results" MODIFIED="1625451724946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/New_teach" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_rights_details_py.coverage" NAME="pytest in test_rights_details.py Coverage Results" MODIFIED="1623808704569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_selNavigationbarList_py.coverage" NAME="pytest in test_selNavigationbarList.py Coverage Results" MODIFIED="1623307728700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/advert_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_addVotingData_py.coverage" NAME="pytest in test_addVotingData.py Coverage Results" MODIFIED="1623901087808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/vote_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_edit_closeOpenScreenPage_py.coverage" NAME="pytest in test_add_edit_closeOpenScreenPage.py Coverage Results" MODIFIED="1625465707193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/advert_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_selVotingDataList_py.coverage" NAME="pytest in test_selVotingDataList.py Coverage Results" MODIFIED="1623897398081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/vote_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_getWithdrawalRules_py.coverage" NAME="pytest in test_getWithdrawalRules.py Coverage Results" MODIFIED="1623821523433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/rich_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_edit_delete_topArticle_py.coverage" NAME="pytest in test_add_edit_delete_topArticle.py Coverage Results" MODIFIED="1624263050413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/information_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_template_getJobs_py.coverage" NAME="pytest in test_template_getJobs.py Coverage Results" MODIFIED="1623305234337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/push_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_selAdBannerList_py.coverage" NAME="pytest in test_selAdBannerList.py Coverage Results" MODIFIED="1623307492391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/advert_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_selActivityList_py.coverage" NAME="pytest in test_selActivityList.py Coverage Results" MODIFIED="1625451829424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/Activity_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_member_ui_rights_py.coverage" NAME="pytest in test_member_ui_rights.py Coverage Results" MODIFIED="1623813045716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/paid-up_member_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_withdrawalRules_py.coverage" NAME="pytest in test_withdrawalRules.py Coverage Results" MODIFIED="1623821920785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/rich_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_fuzzyQueryUser_py.coverage" NAME="pytest in test_fuzzyQueryUser.py Coverage Results" MODIFIED="1623822793903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/rich_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_getWithdrawalPage_py.coverage" NAME="pytest in test_getWithdrawalPage.py Coverage Results" MODIFIED="1623826502265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/rich_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_selAreaList_py.coverage" NAME="pytest in test_selAreaList.py Coverage Results" MODIFIED="1623307011280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/advert_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_view_deleteMaterial_py.coverage" NAME="pytest in test_add_view_deleteMaterial.py Coverage Results" MODIFIED="1625561694987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/push_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_edit_deleteVlogData_py.coverage" NAME="pytest in test_add_edit_deleteVlogData.py Coverage Results" MODIFIED="1625554810645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_selAdOpenScreenPageList_py.coverage" NAME="pytest in test_selAdOpenScreenPageList.py Coverage Results" MODIFIED="1623306892359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/advert_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_delete_labelCategory_py.coverage" NAME="pytest in test_add_delete_labelCategory.py Coverage Results" MODIFIED="1624254102144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/public_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_selMaterialList_py.coverage" NAME="pytest in test_selMaterialList.py Coverage Results" MODIFIED="1623304722893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/advert_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_updateBasicSetting_py.coverage" NAME="pytest in test_updateBasicSetting.py Coverage Results" MODIFIED="1624267447887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/rich_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_suggestTopicList_py.coverage" NAME="pytest in test_suggestTopicList.py Coverage Results" MODIFIED="1623813284769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/creator_center" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_getWithdrawalDetail_py.coverage" NAME="pytest in test_getWithdrawalDetail.py Coverage Results" MODIFIED="1623826494286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/rich_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_getIncomeExpensesPage_py.coverage" NAME="pytest in test_getIncomeExpensesPage.py Coverage Results" MODIFIED="1623718499349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/rich_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_selPopList_py.coverage" NAME="pytest in test_selPopList.py Coverage Results" MODIFIED="1623307265707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/advert_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_edit_deleteVideoSetCategory_py.coverage" NAME="pytest in test_add_edit_deleteVideoSetCategory.py Coverage Results" MODIFIED="1625532727590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/teach_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_getUserInfo_py.coverage" NAME="pytest in test_getUserInfo.py Coverage Results" MODIFIED="1623737223378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_getTopicList_py.coverage" NAME="pytest in test_getTopicList.py Coverage Results" MODIFIED="1623297172900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/new_Talking stock hall_manage" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_edit_closeBannerInfo_py.coverage" NAME="pytest in test_add_edit_closeBannerInfo.py Coverage Results" MODIFIED="1625465609305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/advert_manage" />
     <SUITE FILE_PATH="coverage/test$run_all_cases.coverage" NAME="run_all_cases Coverage Results" MODIFIED="1623140022010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cms_automation_master$run_all_cases.coverage" NAME="run_all_cases Coverage Results" MODIFIED="1623140283738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cms_automation_master$pytest_in_test_add_edit_deleteBanner_py.coverage" NAME="pytest in test_add_edit_deleteBanner.py Coverage Results" MODIFIED="1625532824169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/interface_cases/teach_manage" />
   </component>
 </project>

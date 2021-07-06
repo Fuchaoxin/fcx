@@ -57,6 +57,6 @@ def logger(log_name="DEFAULT"):
 
 
 if __name__ == '__main__':
-    logger().debug('aaaa')
-    logger().info('aaaa')
-    logger().warning('aaaa')
+    logger().debug('5555')
+    logger().info('5555')
+    logger().warning('5555')

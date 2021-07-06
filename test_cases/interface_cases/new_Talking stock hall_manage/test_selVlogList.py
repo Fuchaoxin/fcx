@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_selVlogList")
-def test_selVlogList(test_getToken):
+def test_selVlogList():
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         "page":{"pageNum": 1,"pageSize":20},
         "content": {
             'account': 'null',
@@ -33,5 +33,4 @@ def test_selVlogList(test_getToken):
 
 
 if __name__ == "__main__":
-    test_selVlogList()
     pytest.main(['-s','test_selVlogList.py'])

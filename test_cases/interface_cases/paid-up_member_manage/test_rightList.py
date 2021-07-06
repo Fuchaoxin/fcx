@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_rightList")
-def test_rightList(test_getToken):
+def test_rightList():
     payload1 = {
-        'accessToken':test_getToken
+        'accessToken':config.TOKEN
     }
     headers = {
         "Content-Type": "application/json"
@@ -20,5 +20,5 @@ def test_rightList(test_getToken):
 
 
 if __name__ == "__main__":
-    test_rightList()
+
     pytest.main(['-s','test_rightList.py'])

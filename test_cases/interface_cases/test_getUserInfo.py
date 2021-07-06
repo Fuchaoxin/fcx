@@ -8,11 +8,11 @@ from base.AssertUtil import AssertUtil
 
 
 @allure.step("接口test_getUserInfo")
-def test_getUserInfo(test_getToken):
+def test_getUserInfo():
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         'content':{
-            'accessToken': test_getToken
+            'accessToken': config.TOKEN
         }
     }
     headers = {

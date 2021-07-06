@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_virmediaIntervalNumList")
-def test_virmediaIntervalNumList(test_getToken):
+def test_virmediaIntervalNumList():
     payload1 = {
-        'accessToken':test_getToken,
+        'accessToken':config.TOKEN,
         "page":{"pageNum": 1,"pageSize":20},
         "content": {
             'checkStatus': "1",
@@ -29,5 +29,5 @@ def test_virmediaIntervalNumList(test_getToken):
 
 
 if __name__ == "__main__":
-    test_virmediaIntervalNumList()
+
     pytest.main(['-s','test_virmediaIntervalNumList.py'])

@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_queryApplyOfflineActivityList")
-def test_queryApplyOfflineActivityList(test_getToken):
+def test_queryApplyOfflineActivityList():
     payload1 = {
-        "accessToken": test_getToken
+        "accessToken": config.TOKEN
 
     }
     headers ={
@@ -21,5 +21,5 @@ def test_queryApplyOfflineActivityList(test_getToken):
 
 
 if __name__ == "__main__":
-    test_queryApplyOfflineActivityList()
+
     pytest.main(['-s','test_queryApplyOfflineActivityList.py'])

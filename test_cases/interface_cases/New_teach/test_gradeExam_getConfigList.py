@@ -6,9 +6,9 @@ from base import config
 import json
 from base.AssertUtil import AssertUtil
 @allure.step("接口test_gradeExam_getConfigList")
-def test_gradeExam_getConfigList(test_getToken):
+def test_gradeExam_getConfigList():
     payload1 = {
-        "accessToken": test_getToken
+        "accessToken": config.TOKEN
 
     }
     headers ={
@@ -21,5 +21,5 @@ def test_gradeExam_getConfigList(test_getToken):
 
 
 if __name__ == "__main__":
-    test_gradeExam_getConfigList()
+
     pytest.main(['-s','test_gradeExam_getConfigList.py'])
