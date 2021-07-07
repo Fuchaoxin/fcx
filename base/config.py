@@ -46,5 +46,6 @@ EMAIL_TOADDR = ['fuchaoxin@win-stock.com.cn']    # 收件人地址列表'fuchaox
 FILE_LIST = [
      os.path.join("F:\Web端自动化\cms-automation-master\\report\\", "allure_html.zip"),
      os.path.join("F:\Web端自动化\cms-automation-master\\", "logs.zip")
+     
 ]
 
